@@ -3,7 +3,7 @@ export default function Heading() {
 		<div className='container mx-auto flex flex-col items-center justify-center mt-24 px-4'>
 			{/* Badge */}
 			<div className='bg-yellow-100 border-2 border-black rounded-full px-4 py-1 mb-6'>
-				<p className='text-sm font-semibold'>✨ Your Success Starts Here</p>
+				<p className='text-xs md:text-sm font-semibold'>✨ Your Success Starts Here</p>
 			</div>
 
 			{/* Main Heading */}
