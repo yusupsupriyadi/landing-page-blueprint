@@ -9,6 +9,7 @@ import Testimonials from '@/components/Testimonials';
 import Faq from '@/components/Faq';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
+import FloatButton from '@/components/FloatButton';
 
 export default function Home() {
 	return (
@@ -24,6 +25,7 @@ export default function Home() {
 			<Faq />
 			<CTA />
 			<Footer />
+			<FloatButton />
 		</>
 	);
 }
