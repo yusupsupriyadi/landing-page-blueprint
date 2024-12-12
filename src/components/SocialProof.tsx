@@ -11,7 +11,7 @@ export default function SocialProof() {
 	];
 
 	return (
-		<div className='mt-20  mx-auto px-4'>
+		<div className='mt-20 mx-auto'>
 			{/* Brands Marquee */}
 			<div className='relative flex overflow-hidden py-8 bg-gray-50 border-y-2 border-black'>
 				{/* First Marquee */}
