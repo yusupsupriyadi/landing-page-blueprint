@@ -2,6 +2,9 @@
 
 A modern, responsive landing page template built with Next.js 14, TypeScript, and Tailwind CSS. Perfect for SaaS, products, and services.
 
+![opengraph-image](https://github.com/user-attachments/assets/2fb95d29-51f6-4f96-8f65-2d793de2ea39)
+
+
 ## ✨ Features
 
 - 🚀 Built with Next.js 14 and TypeScript
