@@ -3,7 +3,9 @@ export default function Heading() {
 		<div className='container mx-auto flex flex-col items-center justify-center mt-24 px-4'>
 			{/* Badge */}
 			<div className='bg-yellow-100 border-2 border-black rounded-full px-4 py-1 mb-6'>
-				<p className='text-xs md:text-sm font-semibold'>✨ Your Success Starts Here</p>
+				<p className='text-xs md:text-sm font-semibold'>
+					✨ Your Success Starts Here
+				</p>
 			</div>
 
 			{/* Main Heading */}
@@ -14,8 +16,8 @@ export default function Heading() {
 
 			{/* Subheading */}
 			<p className='text-xl text-gray-600 text-center max-w-2xl mb-12'>
-				Empower your business with cutting-edge solutions that drive growth, 
-				efficiency, and success in today&apos;s digital world.
+				Empower your business with cutting-edge solutions that drive
+				growth, efficiency, and success in today&apos;s digital world.
 			</p>
 
 			{/* CTA Buttons */}
@@ -31,7 +33,7 @@ export default function Heading() {
 					href='#'
 					className='relative inline-block text-lg font-semibold text-black focus:outline-none focus:ring'>
 					<span className='relative block border-2 border-black px-8 py-3 rounded'>
-						Watch Demo <i className="fas fa-play-circle ml-2"></i>
+						Watch Demo <i className='fas fa-play-circle ml-2'></i>
 					</span>
 				</a>
 			</div>
