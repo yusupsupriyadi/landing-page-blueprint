@@ -5,9 +5,9 @@ export default function SocialProof() {
 		{ name: 'Amazon', icon: 'fab fa-amazon' },
 		{ name: 'Apple', icon: 'fab fa-apple' },
 		{ name: 'Spotify', icon: 'fab fa-spotify' },
-		{ name: 'Netflix', icon: 'fab fa-netflix' },
+		{ name: 'Linkedin', icon: 'fab fa-linkedin' },
 		{ name: 'Slack', icon: 'fab fa-slack' },
-		{ name: 'Adobe', icon: 'fab fa-adobe' },
+		{ name: 'Airbnb', icon: 'fab fa-airbnb' },
 	];
 
 	return (
