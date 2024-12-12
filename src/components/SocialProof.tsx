@@ -1,40 +1,47 @@
 export default function SocialProof() {
-	const socialMedia = [
-		{ name: 'Facebook', icon: 'fab fa-facebook' },
-		{ name: 'Twitter', icon: 'fab fa-twitter' },
-		{ name: 'Instagram', icon: 'fab fa-instagram' },
-		{ name: 'LinkedIn', icon: 'fab fa-linkedin' },
-		{ name: 'YouTube', icon: 'fab fa-youtube' },
-		{ name: 'Facebook', icon: 'fab fa-facebook' },
-		{ name: 'Twitter', icon: 'fab fa-twitter' },
-		{ name: 'Instagram', icon: 'fab fa-instagram' },
-		{ name: 'LinkedIn', icon: 'fab fa-linkedin' },
-		{ name: 'YouTube', icon: 'fab fa-youtube' },
+	const brands = [
+		{ name: 'Microsoft', icon: 'fab fa-microsoft' },
+		{ name: 'Google', icon: 'fab fa-google' },
+		{ name: 'Amazon', icon: 'fab fa-amazon' },
+		{ name: 'Apple', icon: 'fab fa-apple' },
+		{ name: 'Spotify', icon: 'fab fa-spotify' },
+		{ name: 'Netflix', icon: 'fab fa-netflix' },
+		{ name: 'Slack', icon: 'fab fa-slack' },
+		{ name: 'Adobe', icon: 'fab fa-adobe' },
 	];
 
 	return (
-		<div className='mt-12 overflow-hidden'>
-			<div className='relative flex'>
-				<div className='animate-marquee flex items-center space-x-8'>
-					{socialMedia.map((social, index) => (
+		<div className='mt-20  mx-auto px-4'>
+			{/* Brands Marquee */}
+			<div className='relative flex overflow-hidden py-8 bg-gray-50 border-y-2 border-black'>
+				{/* First Marquee */}
+				<div className='animate-marquee flex items-center space-x-12'>
+					{brands.map((brand, index) => (
 						<div
 							key={index}
-							className='flex items-center space-x-4 px-4'>
-							<i
-								className={`${social.icon} text-3xl text-gray-600`}></i>
-							<span className='text-gray-600 text-lg'>{social.name}</span>
+							className='group flex flex-col items-center space-y-2 min-w-[120px]'>
+							<div className='w-16 h-16 flex items-center justify-center bg-white border-2 border-black rounded-lg transform transition-transform group-hover:-translate-y-1'>
+								<i className={`${brand.icon} text-3xl`}></i>
+							</div>
+							<span className='text-sm font-medium'>
+								{brand.name}
+							</span>
 						</div>
 					))}
 				</div>
 
-				<div className='animate-marquee2 flex items-center space-x-8 absolute top-0'>
-					{socialMedia.map((social, index) => (
+				{/* Second Marquee (Clone) */}
+				<div className='animate-marquee2 absolute top-0 flex items-center space-x-12 py-8'>
+					{brands.map((brand, index) => (
 						<div
 							key={`clone-${index}`}
-							className='flex items-center space-x-4 px-4'>
-							<i
-								className={`${social.icon} text-3xl text-gray-600`}></i>
-							<span className='text-gray-600 text-lg'>{social.name}</span>
+							className='group flex flex-col items-center space-y-2 min-w-[120px]'>
+							<div className='w-16 h-16 flex items-center justify-center bg-white border-2 border-black rounded-lg transform transition-transform group-hover:-translate-y-1'>
+								<i className={`${brand.icon} text-3xl`}></i>
+							</div>
+							<span className='text-sm font-medium'>
+								{brand.name}
+							</span>
 						</div>
 					))}
 				</div>
