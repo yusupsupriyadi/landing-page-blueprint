@@ -2,8 +2,6 @@
 
 A modern, responsive landing page template built with Next.js 14, TypeScript, and Tailwind CSS. Perfect for SaaS, products, and services.
 
-![Landing Page Preview](preview.png)
-
 ## ✨ Features
 
 - 🚀 Built with Next.js 14 and TypeScript
