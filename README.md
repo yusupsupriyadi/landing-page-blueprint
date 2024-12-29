@@ -4,6 +4,9 @@ A modern, responsive landing page template built with Next.js 14, TypeScript, an
 
 ![opengraph-image](https://github.com/user-attachments/assets/2fb95d29-51f6-4f96-8f65-2d793de2ea39)
 
+# UI on Figma
+https://www.figma.com/community/file/1448959903731758823/landing-page-blueprint-by-yusupsupriyadi-com
+
 
 ## ✨ Features
 
